@@ -24,7 +24,7 @@ Zucchini extension for Liferay DXP
 @it
 Feature: Navigate to public home
 
-Scenario:  Navigate to public home with a loged USer
+Scenario:  Navigate to public home with a logged User
   Given user "test@liferay.com" and password "test" is logged in liferay
     Then I navigate to "web/guest/home"
     Then element having id "portlet-id" should be present
