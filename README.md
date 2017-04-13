@@ -28,7 +28,7 @@ Scenario:  Navigate to public home with a logged User
   Given user "test@liferay.com" and password "test" is logged in liferay
     Then I navigate to "web/guest/home"
     Then element having id "portlet-id" should be present
-    Then logout in liferay
+    Then I logout in liferay
 ```
 
 ## Steps
